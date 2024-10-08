@@ -1,0 +1,10 @@
+[package]
+name = "biced"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+iced = { version = "0.13.1", features = ["image", "canvas", "debug", "tokio"] }
+image = "0.25.2"
+tracing-subscriber = "0.3"
